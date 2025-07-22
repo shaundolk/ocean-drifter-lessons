@@ -1,0 +1,30 @@
+ name: ocean-drifter-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  # Core packages
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  # Geospatial
+  - cartopy
+  - geoviews
+  # Machine learning
+  - scikit-learn
+  - seaborn
+  # Jupyter
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - voila
+  # System dependencies for cartopy
+  - proj
+  - geos
+  - shapely
+  # Additional tools
+  - pip
+  - pip:
+    - tqdm
